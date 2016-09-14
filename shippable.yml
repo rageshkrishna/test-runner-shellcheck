@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+ - "0.12"
+build:
+ ci:
+  - npm install -g bash-task-runner
+  - runner test
